@@ -1,0 +1,28 @@
+.chat__chat-box-message{
+    width:max-content;
+    border-radius: 5px;
+    padding: 0.4rem 0.6rem;
+    clear: both;
+    margin: 0.3rem 0;
+    font-family: Arial;
+    color: black;
+}
+
+
+.right{
+    float: right;
+    background-color: rgb(171, 245, 171);
+}
+
+.left{
+    float: left;
+    background-color: rgb(214, 207, 207);
+}
+
+@media screen and (max-width: 500px){
+    .chat__chat-box-message{
+        font-size: 29px;
+        border-radius: 10px;
+        margin: 0.4rem 0;
+    }
+}
